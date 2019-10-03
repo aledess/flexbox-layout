@@ -1,0 +1,16 @@
+.cta{
+    padding: 3.5rem 0;
+    text-align: center;
+
+    @media only screen and (max-width: $md) {
+        padding: 2.5rem 0;
+      }
+
+    &__book-now{
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 1.2rem;
+        margin-bottom: 2.5rem;
+
+    }
+}
